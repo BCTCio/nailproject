@@ -1,0 +1,556 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201702 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2536                
+POS_VISITOR 10660               
+POS_DAY 15684               
+POS_DOMAIN 3376                
+POS_LOGIN 3609                
+POS_ROBOT 3764                
+POS_WORMS 4298                
+POS_EMAILSENDER 4429                
+POS_EMAILRECEIVER 4572                
+POS_SESSION 16398               
+POS_SIDER 16577               
+POS_FILETYPES 4707                
+POS_OS 4978                
+POS_BROWSER 5162                
+POS_SCREENSIZE 5508                
+POS_UNKNOWNREFERER 5582                
+POS_UNKNOWNREFERERBROWSER 6093                
+POS_ORIGIN 6305                
+POS_SEREFERRALS 6446                
+POS_PAGEREFS 6601                
+POS_SEARCHWORDS 7598                
+POS_KEYWORDS 7750                
+POS_MISC 2200                
+POS_ERRORS 7809                
+POS_CLUSTER 3465                
+POS_SIDER_404 7923                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170301001420 3208 742196 35996705333
+FirstTime 0
+LastTime 20170228211226
+LastUpdate 20170301041835 3208 2870 337 0 0
+TotalVisits 133                 
+TotalUnique 108                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 131                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 41852 16 35 918289
+1 24 184 28645738 33 48 4889212
+2 15 195 27062071 16 21 1064736
+3 12 12 230186 43 70 1472931
+4 10 70 12769368 24 28 436477
+5 3 3 62778 31 32 598971
+6 3 3 62778 20 47 1114752
+7 7 7 128482 15 21 1964624
+8 16 196 37833678 12 15 1457442
+9 16 16 289224 8 12 867263
+10 23 143 25391249 26 72 2853382
+11 10 70 12749554 16 25 1304086
+12 2 3 447127 12 23 3367170
+13 38 182 28396370 40 47 790630
+14 10 89 14868635 22 119 7106900
+15 10 10 180731 22 31 2293241
+16 29 358 57026384 20 61 3014873
+17 19 19 397594 18 19 379670
+18 16 126 17768899 18 21 685998
+19 5 10 354682 17 33 668537
+20 0 0 0 8 10 49409
+21 26 204 36226033 31 95 13046293
+22 27 51 1122785 24 43 780028
+23 10 130 25267168 48 120 2682408
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 333 2083 327323366
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+googlebot 442 27083858 20170228231251 0
+yandex 114 10969236 20170228111821 0
+baiduspider 80 1977793 20170228214919 0
+phantom 65 12602430 20170211215451 0
+bot[+:,\.\;\/\\-] 17 251112 20170227165522 0
+crawl 9 200177 20170227132213 0
+mj12bot 6 137399 20170225033612 0
+python 2 41852 20170211215452 0
+no_user_agent 1 1112 20170201125427 0
+surveybot 1 20926 20170219135844 0
+robot 1 20926 20170223032509 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 388 13251645 0 0
+png 205 53093398 0 0
+ttf 18 1901484 0 0
+woff2 17 1222232 0 0
+woff 23 1442356 0 0
+php 13 243326 0 0
+html 207 4079996 0 0
+jpg 382 210000991 0 0
+js 752 17177765 0 0
+jpeg 23 24776543 0 0
+svg 55 133630 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+winlong 2
+winxp 59
+unix 2
+win2000 10
+winnt 96
+linuxubuntu 63
+winvista 13
+linux 72
+winme 2
+macosx 1567
+win95 1
+win2003 10
+Unknown 49
+win2008 137
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 23
+firefox50.0 2
+msie6.0 46
+firefox48.0 4
+netscape4.61 2
+chrome 579
+firefox26.0 1
+opera 23
+firefox21.0 1
+msie4.01 2
+firefox49.0 2
+firefox7.0.1 4
+msie5.5 1
+firefox24.0 1
+firefox31.0 2
+msie8.0 6
+netscape0.6 2
+firefox0.10.1 1
+mozilla 423
+msie7.0 12
+firefox51.0 212
+firefox3.6.3 1
+Unknown 8
+safari 748
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+SafeDNSBot_(https://www.safedns.com/searchbot) 20170227102411
+HEADMasterSEO 20170228031313
+Mozilla/0.6_Beta_(Windows) 20170226100404
+Opera/9.80_(Android;_Opera_Mini/6.5.27482/27.1169;_U;_ru)_Presto/2.8.119_Version/11.10 20170221105422
+Mozilla/5.0_(compatible;_ips-agent) 20170218011341
+redback/v0-570-g26f8c96 20170215130814
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20170202221114
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+SafeDNSBot_(https://www.safedns.com/searchbot) 20170227102411
+HEADMasterSEO 20170228031313
+redback/v0-570-g26f8c96 20170215130814
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 118 267
+From1 2 2
+From2 2 3
+From3 72 72
+From4 139 1739
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 2 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 31
+http://l.instagram.com 5 5
+http://noginsk.xxxrus.org 3 3
+http://inzn.ru 3 3
+http://taxi-v-eisk.ru 3 3
+http://krasivoe-hd.net 3 3
+http://stary-oskol.xxxrus.org 3 3
+http://zarabotat-na-sajte.ru 3 3
+http://fatmaelgarny.com 3 3
+http://hotloans.ru 3 3
+http://ramenskoye.xxxrus.org 3 3
+http://krasnogorsk.xxxrus.org 1 1
+http://expertblog.info 2 2
+http://mcar.in.ua 2 2
+http://rybalka-opt.ru 2 2
+https://balkanfarma.org 2 2
+http://fatmaelgarny.com 1 1
+http://xn--80aikhbrhr.net 2 2
+https://icaseclub.ru 2 2
+http://tambov.xxxrus.org 2 2
+http://xdoza.com 2 2
+http://bpro1.top 2 2
+http://anonymizeme.pro/go/hide.cgi 1 1
+http://dpdr.ru 2 2
+http://98oi.ru 2 2
+http://domznaniy.ru 3 3
+http://produkto.net 1 1
+http://engels.xxxrus.org 1 1
+https://www.tattooreligion.ru 3 3
+http://sankt-peterburg.nodup.ru 2 2
+http://kinohall.ru 2 2
+https://greendream.com.ua 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 1 205
+206 12 274798
+404 297 225498
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 65
+/glorynails-shop.com.de 2 -
+/admin/content/sitetree/ 6 -
+/robots.txt 177 -
+/wordpress/ 2 -
+/manager/ 6 -
+/glorynails-shop.com.de/checkout_confirmation.php 1 -
+/.well-known/apple-app-site-association 2 -
+/glorynails-shop.com.de/address_book.php 1 -
+/manifest.json 7 -
+/glorynails-shop.com.de/wpcallback.php 1 -
+/glorynails-shop.com.de/german.php 1 -
+/glorynails-shop.com.de/checkout_shipping_address.php 1 -
+/administrator/components/com_jvframework/libraries/elfinder-2.0-rc1/elfinder.html 1 -
+/xmlrpc.php 2 -
+/glorynails-shop.com.de/account_edit.php 1 -
+/glorynails-shop.com.de/checkout_process.php 1 -
+/glorynails-shop.com.de/captcha.php 1 -
+/glorynails-shop.com.de/download.php 1 -
+/user/register 1 -
+/erpfilemanager/elfinder.html 1 -
+/glorynails-shop.com.de/advanced_search_result.php 1 -
+/glorynails-shop.com.de/cookie_usage.php 1 -
+/glorynails-shop.com.de/checkout_shipping.php 1 -
+/glorynails-shop.com.de/callback/ 2 -
+/glorynails-shop.com.de/create_account.php 2 -
+/administrator 1 -
+/glorynails-shop.com.de/shop_content.php 2 -
+/glorynails-shop.com.de/hauptkatalog_2011/ 1 -
+/assets/elfinder1/elfinder.html 1 -
+/wp-login.php 2 -
+/admin/ 6 -
+/glorynails-shop.com.de/display_vvcodes.php 1 -
+/fansite/ 2 -
+/fansite 2 -
+/.well-known/assetlinks.json 2 -
+/Contact.html 1 -
+/glorynails-shop.com.de/shopping_cart.php_org 1 -
+/glorynails-shop.com.de/account_history_info.php 1 -
+/glorynails-shop.com.de/import/ 2 -
+/blog/ 3 http://nailproject.com/blog/
+/wp-admin 1 -
+/glorynails-shop.com.de/xtMigration/ 1 -
+/glorynails-shop.com.de/shopping_cart.php 1 -
+/wp/ 2 -
+/backup/elfinder/elfinder.html 1 -
+/glorynails-shop.com.de/checkout_payment.php_org 1 -
+/reports/usage_201409.html 10 http://proxyelite.biz/info.html#info
+/glorynails-shop.com.de/address_book_process.php 2 -
+/blog/robots.txt 2 -
+/place1/elfinder/elfinder.html 1 -
+/administrator/index.php 1 -
+/glorynails-shop.com.de/counter/ 2 -
+/glorynails-shop.com.de/images/ 2 -
+/glorynails-shop.com.de/account.php 1 -
+/simpla/ 6 -
+/glorynails-shop.com.de/newsletter/ 1 -
+/contents/ts/jpeg/ts_poster_02.jpg 1 http://www.mimicac.com/viewthread.php
+/glorynails-shop.com.de/create_guest_account.php 1 -
+/glorynails-shop.com.de/export/ 2 -
+/glorynails-shop.com.de/ssl_check.php 1 -
+/index.php 1 -
+/glorynails-shop.com.de/send_order.php 1 -
+/glorynails-shop.com.de/checkout_payment_address.php 1 -
+/apple-app-site-association 2 -
+/glorynails-shop.com.de/show_product_thumbs.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 131
+108.29.41.174 24 293 44361646 20170228165119
+69.203.11.180 19 212 39249893 20170202102631
+46.118.114.229 13 13 272038 20170225210725
+5.128.131.224 12 12 125556 20170226010703
+69.119.58.21 10 81 13856640 20170201131511
+69.120.218.79 10 130 25167828 20170208104533
+112.133.232.9 9 9 142742 20170213091103
+218.161.126.192 9 109 15861647 20170208011527
+69.58.178.57 7 7 158325 20170218011341
+46.119.112.65 7 7 146482 20170227222436
+202.46.50.123 1 1 20926 20170225103312
+65.55.213.25 1 4 418286 20170227025517
+202.46.56.182 1 1 20926 20170227112152
+202.46.51.161 1 1 20926 20170224035532
+158.69.25.178 1 1 20926 20170223031942
+46.118.119.149 3 3 62778 20170224220621
+69.58.178.56 1 1 1112 20170201085048
+131.253.27.186 0 5 427408 
+131.253.27.44 0 4 564227 
+113.210.191.238 5 65 12583914 20170214012543
+104.154.94.120 1 1 20926 20170226171051
+38.100.21.66 5 10 354682 20170215195223
+65.55.210.170 4 64 12643812 20170223025148
+202.46.55.173 1 1 20926 20170202150737
+104.238.180.234 2 2 41852 20170227230001
+104.207.150.177 1 1 20926 20170211044504
+79.137.85.189 1 1 20926 20170224064019
+131.253.27.32 0 1 9986 
+188.165.206.188 1 1 20926 20170226150712
+131.253.25.138 0 2 38609 
+52.39.114.11 1 1 20926 20170213131734
+50.74.72.132 4 54 5038503 20170225182859
+37.221.210.9 1 1 20926 20170209032830
+202.46.57.171 1 1 20926 20170214174154
+61.16.130.30 1 1 20926 20170203043729
+23.254.201.189 1 1 20926 20170206011720
+46.119.112.23 6 6 125556 20170225171118
+54.202.219.253 1 1 20926 20170211035519
+131.253.27.102 2 7 2038638 20170227025518
+131.253.27.174 0 4 1853738 
+23.80.147.25 1 1 20926 20170226183832
+202.46.53.114 1 1 20926 20170203115345
+131.253.25.234 0 4 429089 
+202.46.54.130 1 1 20926 20170228211226
+173.208.169.42 1 1 20926 20170207074754
+209.216.151.185 0 1 405275 
+54.224.34.11 1 1 20926 20170212051954
+131.253.27.205 0 4 1522050 
+131.253.27.10 0 3 1516082 
+68.173.132.76 4 62 10728679 20170219213151
+131.253.27.65 0 6 1400948 
+202.46.52.205 1 1 20926 20170223170751
+185.100.87.82 1 1 20926 20170216093417
+131.253.25.133 0 4 1143179 
+199.30.25.4 4 23 2367601 20170218142256
+199.30.24.162 4 64 12643812 20170216210121
+131.253.27.43 0 7 919594 
+131.253.25.206 0 1 5615 
+185.144.31.94 1 1 0 20170228031313
+131.253.25.226 0 7 1179590 
+185.145.253.134 1 1 20926 20170224035211
+37.227.205.106 5 65 12583914 20170223084651
+131.253.27.15 4 64 12643812 20170204163521
+131.253.27.70 0 6 2433577 
+131.253.27.77 0 4 200624 
+131.253.27.4 0 3 68895 
+95.85.62.110 1 1 20926 20170217045418
+46.118.127.142 7 7 146482 20170228152007
+52.39.176.39 1 1 20926 20170215134729
+110.83.60.142 1 1 20926 20170201173650
+91.203.81.157 1 1 20926 20170209112841
+96.250.218.26 5 65 12602430 20170226233104
+46.105.100.149 1 1 20926 20170203095718
+85.93.31.146 1 1 20926 20170208113036
+148.62.14.156 4 4 68498 20170202144357
+185.100.85.220 4 4 83704 20170219182339
+113.240.250.156 1 1 1112 20170201110156
+131.253.27.160 1 1 152796 20170227025518
+104.168.112.169 1 1 20926 20170214172948
+62.212.73.49 1 1 20926 20170206043716
+199.30.25.26 4 64 12643812 20170203043130
+176.9.50.43 1 1 20926 20170228041846
+104.156.231.254 1 1 20926 20170219105641
+131.253.25.227 1 5 158793 20170211115248
+202.46.50.151 1 1 20926 20170221053816
+131.253.27.114 1 7 1274321 20170211115222
+37.115.184.221 6 6 125556 20170228171425
+202.46.50.125 1 1 20926 20170207210426
+206.41.166.157 1 1 20926 20170211130540
+88.99.68.199 1 1 20926 20170211112242
+45.56.116.155 1 1 20926 20170202220326
+202.46.48.18 1 1 20926 20170228004419
+188.163.107.151 4 4 83704 20170205174300
+140.205.201.15 1 1 20926 20170204020504
+37.115.187.228 4 4 83704 20170228131149
+109.236.8.6 2 2 41852 20170215130814
+46.118.115.196 3 3 62778 20170226212424
+199.30.24.103 4 64 12643812 20170208231024
+37.115.190.104 5 5 104630 20170225185904
+202.46.57.177 1 1 20926 20170212041908
+131.253.25.193 0 5 1589799 
+54.89.210.232 5 65 12602430 20170202214356
+131.253.25.239 1 7 2313273 20170211115250
+93.159.230.89 3 63 1690743 20170220022009
+68.119.110.76 1 1 20926 20170225185642
+131.253.25.210 0 7 771738 
+35.162.192.80 1 1 20926 20170219222844
+131.253.27.206 0 1 9766 
+209.95.188.127 1 1 20926 20170219060414
+140.205.201.23 1 1 20926 20170204020511
+140.205.201.11 1 1 20926 20170204020506
+131.253.27.85 1 6 534079 20170211115249
+104.130.124.209 4 4 68498 20170222151159
+46.118.153.151 6 6 125556 20170226172100
+207.154.208.170 1 1 20926 20170222160004
+202.46.54.104 1 1 20926 20170203122706
+202.46.52.62 1 1 20926 20170223051431
+131.253.25.241 0 7 1247628 
+91.213.126.135 2 2 41852 20170223130729
+146.185.172.142 4 4 76939 20170227102411
+202.46.51.32 1 1 20926 20170228003240
+69.4.39.174 6 30 683339 20170202221114
+92.63.91.84 2 2 41852 20170225130849
+131.253.27.162 0 3 994412 
+157.55.2.183 4 64 12643812 20170225080122
+131.253.27.37 0 3 70884 
+202.46.53.144 1 1 20926 20170216123412
+202.46.55.142 1 1 20926 20170211020054
+5.248.197.38 6 6 125556 20170216032713
+178.137.212.14 1 1 2926 20170202075815
+5.102.3.163 5 65 12583914 20170223084623
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20170201 27 231 40545769 6
+20170202 29 233 38587799 9
+20170203 8 68 12727516 5
+20170204 7 67 12706590 4
+20170205 4 4 83704 1
+20170206 2 2 41852 2
+20170207 2 2 41852 2
+20170208 19 239 41110299 4
+20170209 2 2 41852 2
+20170211 9 69 12748442 9
+20170212 2 2 41852 2
+20170213 10 10 163668 2
+20170214 7 67 12625766 3
+20170215 13 18 501164 5
+20170216 9 69 12748442 4
+20170217 3 3 41852 2
+20170218 11 30 2525926 2
+20170219 13 71 10896087 6
+20170220 3 63 1690743 1
+20170221 3 3 41852 2
+20170222 5 5 89424 5
+20170223 22 202 37958122 9
+20170224 20 20 418520 7
+20170225 21 131 17954353 10
+20170226 22 82 12937246 10
+20170227 14 74 12846307 8
+20170228 46 316 45206367 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 3
+0s-30s 125
+30s-2mn 4
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/ 182 3622311 116 95
+/images/decor.svg 30 128280 9 2
+/images/cross.svg 25 5350 2 16
+/fonts/Pe-icon-7-stroke.woff 20 1171120 0 3
+/fonts/fontawesome-webfont.woff2 17 1222232 0 2
+/contact.html 10 133168 2 2
+/fonts/Pe-icon-7-stroke.ttf 9 526320 1 2
+/fonts/fontawesome-webfont.ttf 9 1375164 2 2
+/gallery.html 8 206312 0 2
+/service.html 7 118205 0 2
+/admin.php 7 6100 1 2
+/fonts/fontawesome-webfont.woff 3 271236 0 1
+/reservation.php 6 237226 0 2
+END_SIDER

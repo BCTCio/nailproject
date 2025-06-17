@@ -1,0 +1,336 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NAIL PROJECT</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/themify-icons.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> </head>
+<style>
+.ann-site-nav-toggle i, .ann-site-nav-toggle i::before, .ann-site-nav-toggle i::after {
+  background: #FFFFFF !important;
+}
+
+ 
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  transition: all 0.2s;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ba9d0e;
+  opacity: 0.9;
+  z-index: 1111;
+  text-shadow:none;
+}
+.popup .close:hover {
+  color: #ba9d0e;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+/*Let's make it appear when the page loads*/
+.overlay:target:before {
+    display: none;
+}
+
+/*
+.overlay:before {
+  content:"";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  z-index: 111;
+}*/
+
+.overlay .popup {
+ border-radius: 5px;
+width: 500px;
+position: fixed;
+top: 0;
+left: 36%;
+padding: 0px;
+margin: 100px auto;
+z-index: 111111;
+-webkit-transition: all 0.6s ease-in-out;
+-moz-transition: all 0.6s ease-in-out;
+transition: all 0.6s ease-in-out;
+}
+
+.overlay:target .popup {
+    top: -100%;
+    left: -100%;
+}
+
+@media screen and (max-width: 768px){
+  .box{
+    width: 70%;
+  }
+  .overlay .popup{
+      width: 96%;
+    left: 2%;
+
+  }
+}
+ 
+
+</style>
+<body>
+    <!-- Menu -->
+    <nav class="ann-site-menu" id="ann-navbar-spy">
+        <div class="ann-site-menu-inner" id="ann-navbar">
+            <ul class="list-unstyled">
+              <li><a href="index.html" style="color:#c56765">Home</a></li>
+             <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="service.html" target="_blank">7th. Ave - Menu</a></li>
+  <li><a href="service-2.html" target="_blank">Nevins St. - Menu</a></li>
+        
+    <!--   <li><a href="javascript: void(0)"
+onclick="window.open('reservation.php',
+'windowname1',
+'width=465, height=850');
+return false;" target="_top" target="_blank"> Make Appointment - 7th Ave. </a> </li> -->
+
+  <li><a href="https://form.jotform.com/231555942737060" target="_blank"> Make Appointment - 7th Ave.</a> </li>
+
+   <li><a href="https://form.jotform.com/241757014182150" target="_blank">Make Appointment -  Nevins St. </a> </li>
+
+
+   <!--  <li><a href="javascript: void(0)"
+onclick="window.open('reservation-2.php',
+'windowname1',
+'width=465, height=850');
+return false;" target="_top" target="_blank"> Nevins St. - Grand Opening</a> </li> -->
+ <li><a href="contact.html" >Locations</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header class="ann-site-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Logo -->
+                <div class="col-6 col-md-4 ann-site-logo-wrap">
+                    <a href="index.html" class="ann-site-logo"><img src="img/logo-white.png" alt="Nail Project"></a>
+                </div>
+                <!-- Menu Burger -->
+                <div class="col-6 col-md-8 text-right ann-menu-burger-wrap"> <a href="#" class="ann-site-nav-toggle ann-js-ann-site-nav-toggle" ><i></i></a> </div>
+            </div>
+        </div>
+    </header>
+    <!-- Slider -->
+    <div class="ann-slider-section">
+        <div class="ann-profile-info">
+            <div class="d-flex align-items-center w-100">
+                <div class="mx-auto ann-profile-inner">
+                    <h2 style="color:#fff">NAIL PROJECT<span>Enjoy the latest nail fashion</span></h2> </div>
+            </div>
+        </div>
+        <div class="owl-carousel ann-main-slider">
+            <div class="slide-item" style="background-image: url(img/slider.jpg);"></div>
+            <div class="slide-item" style="background-image: url(img/slider.jpg);"></div>
+        </div>
+    </div>
+    <!-- About Me -->
+    <section class="ann-about-section-home ann-about-inner-page bg-black">
+        <div class="container">
+            <div class="row ann-about-inner">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <div class="ann-about-info">
+                        <h1>We Create Beauty</h1>
+                        <h3>Treat yourself today</h3>
+                        <p style="color:#fff">We want to provide a new type of nail salon, a comfy and warm space that you can enjoy. We use all organic and nature product to give you the best experience. We provide all organic treatments, no harsh chemicals, even our nail polish remover is non-acetone. A eco-friendly, non-toxic salons to keep your nails on point and safe for your body. </p>
+                        <p class="ann-signature-dark"><img src="img/signature.png" alt="Ann Martin"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services -->
+    <section class="ann-homepage-services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center mb-40">
+                    <h2>Services</h2>
+                    <p>Here are a few selections from my portfolio. Please view my expanded portfolio further below. Nam rhoncus euismo.</p>
+                </div>
+            </div>
+            <div class="row ann-portfolio-items">
+                <div class="col-md-6 single-item">
+                    <div class="ann-portfolio-wrap">
+                        <a href="#"><img src="img/nailproject-holiday-2.jpg" alt=""></a>
+                        <div class="ann-portfolio-content">
+                            <p>Come Get Professionally Polished</p>
+                            <h3><a href="#">Color Gel</a></h3>
+                            <a href="#" class="ann-portfolio-link"></a>
+                        </div>
+                    </div>
+                    <div class="ann-portfolio-wrap">
+                        <a href="#"><img src="img/nailproject-holiday-3.jpg" alt=""></a>
+                        <div class="ann-portfolio-content">
+                            <p>Stylish From Every Style</p>
+                            <h3><a href="#">Manicure</a></h3>
+                            <a href="#" class="ann-portfolio-link"></a>
+                        </div>
+                    </div>
+                    <div class="ann-portfolio-wrap">
+                        <a href="#"><img src="img/nailproject-5.jpg" alt=""></a>
+                        <div class="ann-portfolio-content">
+                            <p>A Life Full of Surprises</p>
+                            <h3><a href="#">Pedicure</a></h3>
+                            <a href="#" class="ann-portfolio-link"></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 single-item">
+                  <div class="ann-portfolio-wrap">
+                      <a href="#"><img src="img/nailproject-holiday-1.jpg" alt=""></a>
+                      <div class="ann-portfolio-content">
+                          <p>Your Favourite Nail Desire</p>
+                          <h3><a href="#">Spa Manicure</a></h3>
+                          <a href="#" class="ann-portfolio-link"></a>
+                      </div>
+                  </div>
+                    <div class="ann-portfolio-wrap">
+                        <a href="#"><img src="img/nailproject-13.jpg" alt=""></a>
+                        <div class="ann-portfolio-content">
+                            <p>Choose Your Curiosity</p>
+                            <h3><a href="#">Spa Pedicure</a></h3>
+                            <a href="#" class="ann-portfolio-link"></a>
+                        </div>
+                    </div>
+
+                    <div class="ann-portfolio-wrap">
+                        <a href="#"><img src="img/nailproject-6.jpg" alt=""></a>
+                        <div class="ann-portfolio-content">
+                            <p>Start Your Day with Us</p>
+                            <h3><a href="#">Waxing</a></h3>
+                            <a href="#" class="ann-portfolio-link"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="ann-about-section-home ann-about-inner-page bg-black" style="background:none; border-top:#DFAFAE solid 1px; width:80%; margin: 0 auto; padding: 0 auto;">
+        <div class="container">
+            <div class="row ann-about-inner">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <div class="ann-about-info">
+
+                        <p class="ann-signature-dark"><img src="img/text.png" alt="Ann Martin"></p>
+
+                        <p  style="color:rgba( 222, 174, 174, 100%); font-size:18px;">LIKE • FOLLOW • TAG</p>
+
+<a href="https://www.instagram.com/nailprojectny/?hl=en" target="_blank"><img src="img/instagram-icon.png" width="180"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="ann-footer-section text-center">
+        <div class="container">
+
+            <!-- Logo -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="brand"><img src="img/logo-light.png" alt="Nail Project"></div>
+                </div>
+            </div>
+
+            <!-- Social Link -->
+            <div class="row" style="padding-top:20px">
+                <div class="col-md-12 text-center mb-20">
+<ul>
+
+  <li> <a href="tel:9179090142" target="_blank"  style="color:#ffffff"> Phone: 917.909.0142 </a>  </li>
+
+<li> <a href="https://goo.gl/maps/ajDwWEw9KZ5jTWb19" target="_blank"  style="color:#ffffff"> Address: 138 7th Ave, Brooklyn, NY 11215</a> <a href="https://goo.gl/maps/ajDwWEw9KZ5jTWb19" target="_blank" style="color:#dfafae;font-size:12px; font-style: italic">(Find Location)</a></li>
+<li>Mon-Sat: 10:00am-8:00pm | Sun: 10:00am-7:00pm</li>
+-
+
+ <li> <a href="tel:3472940180" target="_blank"  style="color:#ffffff"> Phone: 347.294.0180 </a>  </li>
+<li> <a href="https://maps.app.goo.gl/cJ1FpQrwK3Cu2kmW6" target="_blank"  style="color:#ffffff"> Address: 68 Nevins St, Brooklyn, NY 11217</a> <a href="https://maps.app.goo.gl/cJ1FpQrwK3Cu2kmW6" target="_blank" style="color:#dfafae;font-size:12px; font-style: italic">(Find Location)</a></li>
+
+<li>Mon-Sat: 10:00am-8:00pm | Sun: 10:00am-7:00pm</li>
+
+
+
+                </div>
+            </div>
+
+ <!--
+<div id="popup1" class="overlay">
+    <div class="popup">
+
+        <a class="close" href="#popup1">&times;</a>
+        <div class="content">
+<a href="http://nailproject.com/reservation-2.php" target="_blank"><img src="popup.jpg"   width="100%"> </a>
+        </div>
+    </div>
+</div>   -->
+
+            <!-- Copyright -->
+            <div class="row">
+                <div class="col-md-12">
+                  -
+                    <p class="copright" >2024 © Nail Project. All rights reserved. Designed by AM Branding</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JS -->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="js/vendor/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/scripts.js"></script>
+<script src="https://cdn.userway.org/widget.js" data-account="0FcSBmx8oS"></script>
+</body>
+
+</html>

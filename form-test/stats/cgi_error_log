@@ -1,0 +1,52 @@
+20190130T163409: www.nailproject.com/admin.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+sh: 1: /usr/sbin/sendmail: Permission denied
+
+20190201T163633: www.nailproject.com/admin.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+sh: 1: /usr/sbin/sendmail: Permission denied
+
+20190202T191323: nailproject.com/admin.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+sh: 1: /usr/sbin/sendmail: Permission denied
+
+20190203T104849: nailproject.com/admin.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+sh: 1: /usr/sbin/sendmail: Permission denied
+
+20190705T081721: nailproject.com/admin.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+sh: 1: /usr/sbin/sendmail: Permission denied
+
+20190710T110038: nailproject.com/admin.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+sh: 1: /usr/sbin/sendmail: Permission denied
+
+20190712T135643: nailproject.com/admin.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+sh: 1: /usr/sbin/sendmail: Permission denied
+
+20190713T092246: www.nailproject.com/admin.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+sh: 1: /usr/sbin/sendmail: Permission denied
+
+20190713T092438: www.nailproject.com/admin.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+sh: 1: /usr/sbin/sendmail: Permission denied
+
+20190716T095853: nailproject.com/admin.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+sh: 1: /usr/sbin/sendmail: Permission denied
+
+20190720T114422: nailproject.com/admin.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+sh: 1: /usr/sbin/sendmail: Permission denied
+
+20190721T114937: nailproject.com/admin.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+sh: 1: /usr/sbin/sendmail: Permission denied
+
+20190724T130326: www.nailproject.com/admin.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+sh: 1: /usr/sbin/sendmail: Permission denied
+
